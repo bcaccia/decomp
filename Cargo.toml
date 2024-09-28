@@ -1,0 +1,9 @@
+[package]
+name = "decomp"
+version = "0.1.0"
+edition = "2021"
+description = "Will automatically correctly extract a provided compressed archive"
+
+[dependencies]
+clap = { version = "4.5.18", features = ["derive"] }
+decompress = "0.6.0"
